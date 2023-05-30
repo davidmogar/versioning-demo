@@ -1,0 +1,13 @@
+apiVersion: davidmogar.redhat.com/v1alpha1
+kind: Test
+metadata:
+  labels:
+    app.kubernetes.io/name: test
+    app.kubernetes.io/instance: test-sample
+    app.kubernetes.io/part-of: versioning
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: versioning
+  name: test-sample-v1alpha1
+spec:
+  foo: "Foo"
+  namespacedName: "davidmogar/test"
