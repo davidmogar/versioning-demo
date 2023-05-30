@@ -19,11 +19,11 @@ package controllers
 import (
 	"context"
 	"github.com/davidmogar/versioning-demo/api/v1beta1"
+	"sigs.k8s.io/controller-runtime/pkg/log"
 
 	"k8s.io/apimachinery/pkg/runtime"
 	ctrl "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/controller-runtime/pkg/client"
-	"sigs.k8s.io/controller-runtime/pkg/log"
 )
 
 // TestReconciler reconciles a Test object
